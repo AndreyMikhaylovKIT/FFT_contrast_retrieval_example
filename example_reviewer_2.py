@@ -118,7 +118,7 @@ plt.show()
 
 
 
-# =0.5*(log(x1) + (-log(x2))) = 0.5*log(1/(x1*x2)) - half sum of the scattering.
+# =0.5*(-log(x1) + (-log(x2))) = 0.5*log(1/(x1*x2)) - half sum of the scattering.
 # Background is not zero. Fitting of the background gives 0.332 of flat value.
 # After that all negative values are broken pixels.
 
